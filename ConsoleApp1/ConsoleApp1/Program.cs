@@ -11,7 +11,6 @@ static double GetAverage(int[] numbers)
 
 
 {
-<<<<<<< HEAD
     int suma_suma = 0;
     foreach (var number in numbers)
     {
@@ -19,15 +18,6 @@ static double GetAverage(int[] numbers)
     }
     
     return (double) suma_suma / numbers.Length;
-=======
-    int sumaaiii = 0;
-    foreach (var number in numbers)
-    {
-        sumaaiii += number;
-    }
-    
-    return (double) sumaaiii / numbers.Length;
->>>>>>> feature-new
 }
 
 static double GetMax(int[] numbers)
