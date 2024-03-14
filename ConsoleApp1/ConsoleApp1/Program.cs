@@ -11,13 +11,13 @@ static double GetAverage(int[] numbers)
 
 
 {
-    int sumaai = 0;
+    int sumaaia = 0;
     foreach (var number in numbers)
     {
-        sumaai += number;
+        sumaaia += number;
     }
     
-    return (double) sumaai / numbers.Length;
+    return (double) sumaaia / numbers.Length;
 }
 
 static double GetMax(int[] numbers)
