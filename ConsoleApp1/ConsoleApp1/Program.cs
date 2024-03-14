@@ -23,16 +23,16 @@ static double GetAverage(int[] numbers)
 static double GetMax(int[] numbers)
 
 {
-    int maxi = 0;
+    int maxii = 0;
     foreach (var number in numbers)
     {
-        if (number > maxi)
+        if (number > maxii)
         {
-            maxi = number;
+            maxii = number;
         }
     }
 
-    return maxi;
+    return maxii;
 }
 
 // int[] numbers = { 1, 2, 3, 4 };
